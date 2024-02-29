@@ -40,17 +40,3 @@ const displayData = dataList => {
 }
 
 loadData();
-
-
-
-
-
-
-
-
-
-// function displayData(data) {
-//     for (const user of users){
-//         console.log(data);
-//     }
-// }
