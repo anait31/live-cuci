@@ -21,17 +21,16 @@ const displayData = dataList => {
         cuciDiv.classList = `overflow-x-auto`
         cuciDiv.innerHTML = `
         <table class="table text-center">
-                    
-                    <tbody>
-                        <tr>
-                            <td>${dataItem.platform}</td>
-                            <td>${dataItem.amount}</td>
-                            <td>${dataItem.game}</td>
-                            <td>${dataItem.time}</td>
-                            <td>${dataItem.company}</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <tbody>
+                <tr>
+                    <td>${dataItem.platform}</td>
+                    <td>${dataItem.amount}</td>
+                    <td>${dataItem.game}</td>
+                    <td>${dataItem.time}</td>
+                    <td>${dataItem.company}</td>
+                </tr>
+            </tbody>
+        </table>
         `
         cuciContainer.appendChild(cuciDiv);
 
